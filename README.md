@@ -18,7 +18,7 @@ https://github.com/nwjs/nw.js/issues/4855
 
 Temporary solution:
 ```
-1. At least one network adapter
+1. At least one network adapter(when no network adapter, could install virtual network adapter)
 2. Enable the network adapter
 3. Set DNS: 8.8.8.8(using static DNS to fix)
 ```
