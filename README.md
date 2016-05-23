@@ -30,5 +30,5 @@ https://github.com/nwjs/nw.js/issues/4863
 
 Temporary solution:
 ```
-NONE
+ use jquery.hotkeys instead of nw.App.registerGlobalHotKey, but all pages to add jquery.hotkeys codes
 ```
