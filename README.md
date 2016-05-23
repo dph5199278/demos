@@ -30,5 +30,7 @@ https://github.com/nwjs/nw.js/issues/4863
 
 Temporary solution:
 ```
- use jquery.hotkeys instead of nw.App.registerGlobalHotKey, but all pages to add jquery.hotkeys codes
+Two plans:
+one. use jquery.hotkeys instead of nw.App.registerGlobalHotKey, but all pages to add jquery.hotkeys codes
+two. use nw.App.(un)registerGlobalHotKey for every page
 ```
