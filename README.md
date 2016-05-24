@@ -8,7 +8,7 @@ https://github.com/nwjs/nw.js/issues/4843
 
 Temporary solution:
 ```
-NONE
+ use win.enterFullscreen() or win.enterKioskMode() instead of win.on("close", function() {}) to hide close button.
 ```
 
 ## crash_reports_by_http(s)_child_process.zip
